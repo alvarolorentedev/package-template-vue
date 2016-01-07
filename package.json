@@ -1,0 +1,19 @@
+{
+  "name": "package-template-vue",
+  "main": "./lib/package-template-vue",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "package-template-vue:toggle"
+  },
+  "repository": "https://github.com/atom/package-template-vue",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "vue": "^1.0.12-csp"
+  }
+}
