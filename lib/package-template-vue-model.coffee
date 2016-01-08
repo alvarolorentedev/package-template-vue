@@ -1,4 +1,4 @@
 module.exports =
-class VideoModel
+class PackageTemplateVueModel
     constructor: ->
         @message = "The PackageTemplateVue package is Alive! It's ALIVE!"

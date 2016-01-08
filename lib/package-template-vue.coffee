@@ -1,9 +1,9 @@
 PackageTemplateVueView = require './package-template-vue-view'
 {CompositeDisposable} = require 'atom'
 
-Model =require './models/package-template-vue-model'
-View = require './views/package-template-vue-view'
-ViewModel = require './view-models/package-template-vue-view-model'
+Model =require './package-template-vue-model'
+View = require './package-template-vue-view'
+ViewModel = require './package-template-vue-view-model'
 
 module.exports = PackageTemplateVue =
   packageTemplateVueView: null

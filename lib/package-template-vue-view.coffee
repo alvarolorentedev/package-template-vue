@@ -2,7 +2,7 @@ fs = require 'fs'
 path = require 'path'
 
 module.exports =
-class VideoView
+class PackageTemplateVueView
   constructor: ->
     @element = document.createElement('div')
     @element.classList.add('package-template-vue-view')

@@ -3,7 +3,7 @@ Vue = require 'vue'
 
 
 module.exports =
-class VideoVueBinder
+class PackageTemplateVueViewModel
     constructor: (@view, @model) ->
         @vue = allowUnsafeNewFunction =>
           new Vue
