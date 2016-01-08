@@ -14,6 +14,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "vue": "^1.0.12-csp"
+    "vue": "^1.0.12-csp",
+    "loophole": "^1.1.0"
   }
 }
