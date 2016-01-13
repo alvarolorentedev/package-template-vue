@@ -56,7 +56,7 @@ describe "PackageTemplateVue", ->
 
       runs ->
         # Now we can test for view visibility
-        packageTemplateVueElement = workspaceElement.querySelector('.message')
+        packageTemplateVueElement = workspaceElement.querySelector('.__package-name__-view')
         expect(packageTemplateVueElement).toBeVisible()
         atom.commands.dispatch workspaceElement, '__package-name__:toggle'
         expect(packageTemplateVueElement).not.toBeVisible()
