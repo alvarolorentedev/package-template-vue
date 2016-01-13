@@ -5,8 +5,8 @@ module.exports =
 class PackageTemplateVueView
   constructor: ->
     @element = document.createElement('div')
-    @element.classList.add('package-template-vue-view')
-    @element.innerHTML = fs.readFileSync(path.join(__dirname, 'package-template-vue-view.html'))
+    @element.classList.add('__package-name__-view')
+    @element.innerHTML = fs.readFileSync(path.join(__dirname, '__package-name__-view.html'))
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->

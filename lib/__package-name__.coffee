@@ -1,9 +1,9 @@
-PackageTemplateVueView = require './package-template-vue-view'
+PackageTemplateVueView = require './__package-name__-view'
 {CompositeDisposable} = require 'atom'
 
-Model =require './package-template-vue-model'
-View = require './package-template-vue-view'
-ViewModel = require './package-template-vue-view-model'
+Model =require './__package-name__-model'
+View = require './__package-name__-view'
+ViewModel = require './__package-name__-view-model'
 
 module.exports = PackageTemplateVue =
   packageTemplateVueView: null
@@ -20,7 +20,7 @@ module.exports = PackageTemplateVue =
     @subscriptions = new CompositeDisposable
 
     # Register command that toggles this view
-    @subscriptions.add atom.commands.add 'atom-workspace', 'package-template-vue:toggle': => @toggle()
+    @subscriptions.add atom.commands.add 'atom-workspace', '__package-name__:toggle': => @toggle()
 
   deactivate: ->
     @modalPanel.destroy()

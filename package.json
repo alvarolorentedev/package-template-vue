@@ -1,14 +1,14 @@
 {
-  "name": "package-template-vue",
-  "main": "./lib/package-template-vue",
+  "name": "__package-name__",
+  "main": "./lib/__package-name__",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "package-template-vue:toggle"
+    "atom-workspace": "__package-name__:toggle"
   },
-  "repository": "https://github.com/atom/package-template-vue",
+  "repository": "https://github.com/atom/__package-name__",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
