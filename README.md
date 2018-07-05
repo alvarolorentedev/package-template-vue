@@ -1,5 +1,5 @@
-# __package-name__ package
+# ![logomakr_3lbtkb](https://user-images.githubusercontent.com/3071208/42306139-2617f638-802e-11e8-9c03-330afdb06446.png)
 
-A short description of your package.
+this is a template for generating a package using vue as rendering framework
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Makr">LogoMakr.com</a> https://logomakr.com/3lbtkb
