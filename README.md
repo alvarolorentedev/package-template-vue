@@ -2,4 +2,6 @@
 
 this is a template for generating a package using vue as rendering framework
 
+### Logo
+
 Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Makr">LogoMakr.com</a> https://logomakr.com/3lbtkb
